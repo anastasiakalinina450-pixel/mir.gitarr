@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Мир Гитар</title>
+    <link rel="stylesheet" href="styleee.css">
+</head>
+<body>
+
+<header class="header">
+    <img src="logo.jpg" alt="Логотип">
+    <h1>Мир <span>Гитар</span></h1>
+</header>
+
+<nav class="nav"></nav>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>Меню</h2>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="vidy.html">Виды гитар</a></li>
+            <li><a href="ustroystvo.html">Устройство</a></li>
+            <li><a href="obuchenie.html">Обучение</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="register.html">Регистрация</a></li>
+        </ul>
+
+        <h2>Факты о гитарах</h2>
+        <p>Связаться с нами можно через форму обратной связи.</p>
+    </aside>
+
+    <main class="content">
+        <div class="top-bar">
+            <div></div>
+            <div class="search">
+                <input type="text" placeholder="Поиск...">
+                <button type="button">Найти</button>
+            </div>
+        </div>
+
+        <div class="page-text anim-show">
+            <h2>Контакты</h2>
+            <p>
+                Связаться с нами можно любым удобным способом. Мы всегда рады помочь вам
+                с выбором гитары, аксессуаров и ответить на все интересующие вопросы.
+            </p>
+
+            <div class="contact-info">
+                <p><strong>Телефон:</strong> +38 (096) 098-36-63</p>
+                <p><strong>Email:</strong> anastasiakalinina@gmail.com</p>
+                <p><strong>График работы:</strong> Пн–Пт, 09:00–18:00</p>
+            </div>
+
+            <h3>Форма обратной связи</h3>
+            <form action="contacts.php" method="post" class="contact-form">
+                <p>
+                    <label for="name">Имя:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Электронная почта:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Сообщение:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </main>
+</div>
+
+<footer class="footer">
+    <p>© 2026 Мир Гитар. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
